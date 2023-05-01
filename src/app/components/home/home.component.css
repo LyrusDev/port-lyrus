@@ -7,53 +7,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
-}
-
-.logo {
-    font-size: 2em;
-    color: #4b7486;
-    user-select: none;
-}
-
-.navbar a {
-    position: relative;
-    font-size: 1.2em;
-    color: #3e3145;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
-}
-
-.navbar a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background: #4b7486;
-    border-radius: 5px;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .5s;
-}
-
-.navbar a:hover::after {
-    transform-origin: left;
-    transform: scaleX(1);
-}
-
 /* Inicio */
 .bienvenida {
     display: flex;
@@ -151,12 +104,4 @@ header {
 .redes-sociales i {
     color: #ffffff;
     font-size: 26px;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
 }

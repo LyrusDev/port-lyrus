@@ -7,7 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { Error404Component } from './error404/error404.component';
+import { Error404Component } from './components/error404/error404.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { Error404Component } from './error404/error404.component';
     NavbarComponent,
     FooterComponent,
     ContactComponent,
-    Error404Component
+    Error404Component,
+    ProyectosComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -52,7 +52,7 @@
 }
 
 .text p {
-    font-size: 1.1rem;
+    font-size: 1.09rem;
     font-weight: 300;
 }
 
@@ -60,13 +60,15 @@
 .redes-sociales {
     background-color: #ffffff;
     color: #3e3145;
-    height: 25rem;
+    height: 30rem;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .redes-sociales h2 {
-    margin-top: 5rem;
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
 }
